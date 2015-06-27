@@ -1,0 +1,353 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4EDFE4EA1B3F65BF00091F0D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4EDFE4D01B3F65BF00091F0D /* Info.plist */; };
+		4EDFE4EB1B3F65BF00091F0D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EDFE4D41B3F65BF00091F0D /* AppDelegate.m */; };
+		4EDFE4EC1B3F65BF00091F0D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EDFE4D51B3F65BF00091F0D /* main.m */; };
+		4EDFE4ED1B3F65BF00091F0D /* RSInteractiveAnimatorPresent.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EDFE4D81B3F65BF00091F0D /* RSInteractiveAnimatorPresent.m */; };
+		4EDFE4EE1B3F65BF00091F0D /* RSTransitionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EDFE4DA1B3F65BF00091F0D /* RSTransitionDelegate.m */; };
+		4EDFE4EF1B3F65BF00091F0D /* RSTransitionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EDFE4DD1B3F65BF00091F0D /* RSTransitionManager.m */; };
+		4EDFE4F01B3F65BF00091F0D /* RSTransitonAnimatorDismiss.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EDFE4DF1B3F65BF00091F0D /* RSTransitonAnimatorDismiss.m */; };
+		4EDFE4F11B3F65BF00091F0D /* RSTransitonAnimatorPresent.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EDFE4E11B3F65BF00091F0D /* RSTransitonAnimatorPresent.m */; };
+		4EDFE4F21B3F65BF00091F0D /* UIViewController+RSTransitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EDFE4E31B3F65BF00091F0D /* UIViewController+RSTransitioning.m */; };
+		4EDFE4F31B3F65BF00091F0D /* ShownViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EDFE4E51B3F65BF00091F0D /* ShownViewController.m */; };
+		4EDFE4F41B3F65BF00091F0D /* ShownViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4EDFE4E61B3F65BF00091F0D /* ShownViewController.xib */; };
+		4EDFE4F51B3F65BF00091F0D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EDFE4E81B3F65BF00091F0D /* ViewController.m */; };
+		4EDFE4F61B3F65BF00091F0D /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4EDFE4E91B3F65BF00091F0D /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4E5CD5CC1B3EC75500220393 /* TransitionSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TransitionSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EDFE4D01B3F65BF00091F0D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EDFE4D31B3F65BF00091F0D /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4EDFE4D41B3F65BF00091F0D /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4EDFE4D51B3F65BF00091F0D /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4EDFE4D71B3F65BF00091F0D /* RSInteractiveAnimatorPresent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSInteractiveAnimatorPresent.h; sourceTree = "<group>"; };
+		4EDFE4D81B3F65BF00091F0D /* RSInteractiveAnimatorPresent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSInteractiveAnimatorPresent.m; sourceTree = "<group>"; };
+		4EDFE4D91B3F65BF00091F0D /* RSTransitionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSTransitionDelegate.h; sourceTree = "<group>"; };
+		4EDFE4DA1B3F65BF00091F0D /* RSTransitionDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSTransitionDelegate.m; sourceTree = "<group>"; };
+		4EDFE4DB1B3F65BF00091F0D /* RSTransitioningManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSTransitioningManager.h; sourceTree = "<group>"; };
+		4EDFE4DC1B3F65BF00091F0D /* RSTransitionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSTransitionManager.h; sourceTree = "<group>"; };
+		4EDFE4DD1B3F65BF00091F0D /* RSTransitionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSTransitionManager.m; sourceTree = "<group>"; };
+		4EDFE4DE1B3F65BF00091F0D /* RSTransitonAnimatorDismiss.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSTransitonAnimatorDismiss.h; sourceTree = "<group>"; };
+		4EDFE4DF1B3F65BF00091F0D /* RSTransitonAnimatorDismiss.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSTransitonAnimatorDismiss.m; sourceTree = "<group>"; };
+		4EDFE4E01B3F65BF00091F0D /* RSTransitonAnimatorPresent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSTransitonAnimatorPresent.h; sourceTree = "<group>"; };
+		4EDFE4E11B3F65BF00091F0D /* RSTransitonAnimatorPresent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSTransitonAnimatorPresent.m; sourceTree = "<group>"; };
+		4EDFE4E21B3F65BF00091F0D /* UIViewController+RSTransitioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+RSTransitioning.h"; sourceTree = "<group>"; };
+		4EDFE4E31B3F65BF00091F0D /* UIViewController+RSTransitioning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+RSTransitioning.m"; sourceTree = "<group>"; };
+		4EDFE4E41B3F65BF00091F0D /* ShownViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShownViewController.h; sourceTree = "<group>"; };
+		4EDFE4E51B3F65BF00091F0D /* ShownViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShownViewController.m; sourceTree = "<group>"; };
+		4EDFE4E61B3F65BF00091F0D /* ShownViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShownViewController.xib; sourceTree = "<group>"; };
+		4EDFE4E71B3F65BF00091F0D /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4EDFE4E81B3F65BF00091F0D /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4EDFE4E91B3F65BF00091F0D /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4E5CD5C91B3EC75500220393 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E5CD5C31B3EC75500220393 = {
+			isa = PBXGroup;
+			children = (
+				4EDFE4CE1B3F65BF00091F0D /* RSTransitionSample */,
+				4E5CD5CD1B3EC75500220393 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4E5CD5CD1B3EC75500220393 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E5CD5CC1B3EC75500220393 /* TransitionSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4EDFE4CE1B3F65BF00091F0D /* RSTransitionSample */ = {
+			isa = PBXGroup;
+			children = (
+				4EDFE4D11B3F65BF00091F0D /* Sources */,
+				4EDFE4CF1B3F65BF00091F0D /* Resources */,
+			);
+			path = RSTransitionSample;
+			sourceTree = "<group>";
+		};
+		4EDFE4CF1B3F65BF00091F0D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4EDFE4D01B3F65BF00091F0D /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		4EDFE4D11B3F65BF00091F0D /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				4EDFE4D21B3F65BF00091F0D /* Main */,
+				4EDFE4D61B3F65BF00091F0D /* RSTransition */,
+				4EDFE4E41B3F65BF00091F0D /* ShownViewController.h */,
+				4EDFE4E51B3F65BF00091F0D /* ShownViewController.m */,
+				4EDFE4E61B3F65BF00091F0D /* ShownViewController.xib */,
+				4EDFE4E71B3F65BF00091F0D /* ViewController.h */,
+				4EDFE4E81B3F65BF00091F0D /* ViewController.m */,
+				4EDFE4E91B3F65BF00091F0D /* ViewController.xib */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		4EDFE4D21B3F65BF00091F0D /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				4EDFE4D31B3F65BF00091F0D /* AppDelegate.h */,
+				4EDFE4D41B3F65BF00091F0D /* AppDelegate.m */,
+				4EDFE4D51B3F65BF00091F0D /* main.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		4EDFE4D61B3F65BF00091F0D /* RSTransition */ = {
+			isa = PBXGroup;
+			children = (
+				4EDFE4D71B3F65BF00091F0D /* RSInteractiveAnimatorPresent.h */,
+				4EDFE4D81B3F65BF00091F0D /* RSInteractiveAnimatorPresent.m */,
+				4EDFE4D91B3F65BF00091F0D /* RSTransitionDelegate.h */,
+				4EDFE4DA1B3F65BF00091F0D /* RSTransitionDelegate.m */,
+				4EDFE4DB1B3F65BF00091F0D /* RSTransitioningManager.h */,
+				4EDFE4DC1B3F65BF00091F0D /* RSTransitionManager.h */,
+				4EDFE4DD1B3F65BF00091F0D /* RSTransitionManager.m */,
+				4EDFE4DE1B3F65BF00091F0D /* RSTransitonAnimatorDismiss.h */,
+				4EDFE4DF1B3F65BF00091F0D /* RSTransitonAnimatorDismiss.m */,
+				4EDFE4E01B3F65BF00091F0D /* RSTransitonAnimatorPresent.h */,
+				4EDFE4E11B3F65BF00091F0D /* RSTransitonAnimatorPresent.m */,
+				4EDFE4E21B3F65BF00091F0D /* UIViewController+RSTransitioning.h */,
+				4EDFE4E31B3F65BF00091F0D /* UIViewController+RSTransitioning.m */,
+			);
+			path = RSTransition;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4E5CD5CB1B3EC75500220393 /* RSTransitionSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E5CD5EF1B3EC75500220393 /* Build configuration list for PBXNativeTarget "RSTransitionSample" */;
+			buildPhases = (
+				4E5CD5C81B3EC75500220393 /* Sources */,
+				4E5CD5C91B3EC75500220393 /* Frameworks */,
+				4E5CD5CA1B3EC75500220393 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RSTransitionSample;
+			productName = TransitionSample;
+			productReference = 4E5CD5CC1B3EC75500220393 /* TransitionSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4E5CD5C41B3EC75500220393 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Ruslan Samsonov";
+				TargetAttributes = {
+					4E5CD5CB1B3EC75500220393 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+				};
+			};
+			buildConfigurationList = 4E5CD5C71B3EC75500220393 /* Build configuration list for PBXProject "RSTransitionSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4E5CD5C31B3EC75500220393;
+			productRefGroup = 4E5CD5CD1B3EC75500220393 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4E5CD5CB1B3EC75500220393 /* RSTransitionSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4E5CD5CA1B3EC75500220393 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EDFE4F41B3F65BF00091F0D /* ShownViewController.xib in Resources */,
+				4EDFE4F61B3F65BF00091F0D /* ViewController.xib in Resources */,
+				4EDFE4EA1B3F65BF00091F0D /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E5CD5C81B3EC75500220393 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EDFE4EE1B3F65BF00091F0D /* RSTransitionDelegate.m in Sources */,
+				4EDFE4EC1B3F65BF00091F0D /* main.m in Sources */,
+				4EDFE4F31B3F65BF00091F0D /* ShownViewController.m in Sources */,
+				4EDFE4EB1B3F65BF00091F0D /* AppDelegate.m in Sources */,
+				4EDFE4F51B3F65BF00091F0D /* ViewController.m in Sources */,
+				4EDFE4F11B3F65BF00091F0D /* RSTransitonAnimatorPresent.m in Sources */,
+				4EDFE4ED1B3F65BF00091F0D /* RSInteractiveAnimatorPresent.m in Sources */,
+				4EDFE4EF1B3F65BF00091F0D /* RSTransitionManager.m in Sources */,
+				4EDFE4F01B3F65BF00091F0D /* RSTransitonAnimatorDismiss.m in Sources */,
+				4EDFE4F21B3F65BF00091F0D /* UIViewController+RSTransitioning.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4E5CD5ED1B3EC75500220393 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4E5CD5EE1B3EC75500220393 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4E5CD5F01B3EC75500220393 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "$(SRCROOT)/RSTransitionSample/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4E5CD5F11B3EC75500220393 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "$(SRCROOT)/RSTransitionSample/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4E5CD5C71B3EC75500220393 /* Build configuration list for PBXProject "RSTransitionSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E5CD5ED1B3EC75500220393 /* Debug */,
+				4E5CD5EE1B3EC75500220393 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E5CD5EF1B3EC75500220393 /* Build configuration list for PBXNativeTarget "RSTransitionSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E5CD5F01B3EC75500220393 /* Debug */,
+				4E5CD5F11B3EC75500220393 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4E5CD5C41B3EC75500220393 /* Project object */;
+}
