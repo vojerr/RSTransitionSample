@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E1C91641B3FEA1E00DDB36A /* RSAnimationGroupUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E1C91631B3FEA1E00DDB36A /* RSAnimationGroupUtil.m */; };
 		4EDFE4EA1B3F65BF00091F0D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4EDFE4D01B3F65BF00091F0D /* Info.plist */; };
 		4EDFE4EB1B3F65BF00091F0D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EDFE4D41B3F65BF00091F0D /* AppDelegate.m */; };
 		4EDFE4EC1B3F65BF00091F0D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EDFE4D51B3F65BF00091F0D /* main.m */; };
@@ -23,29 +24,31 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4E5CD5CC1B3EC75500220393 /* TransitionSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TransitionSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E1C91621B3FEA1E00DDB36A /* RSAnimationGroupUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = RSAnimationGroupUtil.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		4E1C91631B3FEA1E00DDB36A /* RSAnimationGroupUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = RSAnimationGroupUtil.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		4E5CD5CC1B3EC75500220393 /* RSTransitionSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSTransitionSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EDFE4D01B3F65BF00091F0D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4EDFE4D31B3F65BF00091F0D /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		4EDFE4D41B3F65BF00091F0D /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4EDFE4D51B3F65BF00091F0D /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4EDFE4D71B3F65BF00091F0D /* RSInteractiveAnimatorPresent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSInteractiveAnimatorPresent.h; sourceTree = "<group>"; };
-		4EDFE4D81B3F65BF00091F0D /* RSInteractiveAnimatorPresent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSInteractiveAnimatorPresent.m; sourceTree = "<group>"; };
-		4EDFE4D91B3F65BF00091F0D /* RSTransitionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSTransitionDelegate.h; sourceTree = "<group>"; };
-		4EDFE4DA1B3F65BF00091F0D /* RSTransitionDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSTransitionDelegate.m; sourceTree = "<group>"; };
-		4EDFE4DB1B3F65BF00091F0D /* RSTransitioningManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSTransitioningManager.h; sourceTree = "<group>"; };
-		4EDFE4DC1B3F65BF00091F0D /* RSTransitionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSTransitionManager.h; sourceTree = "<group>"; };
-		4EDFE4DD1B3F65BF00091F0D /* RSTransitionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSTransitionManager.m; sourceTree = "<group>"; };
-		4EDFE4DE1B3F65BF00091F0D /* RSTransitonAnimatorDismiss.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSTransitonAnimatorDismiss.h; sourceTree = "<group>"; };
-		4EDFE4DF1B3F65BF00091F0D /* RSTransitonAnimatorDismiss.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSTransitonAnimatorDismiss.m; sourceTree = "<group>"; };
-		4EDFE4E01B3F65BF00091F0D /* RSTransitonAnimatorPresent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSTransitonAnimatorPresent.h; sourceTree = "<group>"; };
-		4EDFE4E11B3F65BF00091F0D /* RSTransitonAnimatorPresent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSTransitonAnimatorPresent.m; sourceTree = "<group>"; };
-		4EDFE4E21B3F65BF00091F0D /* UIViewController+RSTransitioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+RSTransitioning.h"; sourceTree = "<group>"; };
-		4EDFE4E31B3F65BF00091F0D /* UIViewController+RSTransitioning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+RSTransitioning.m"; sourceTree = "<group>"; };
-		4EDFE4E41B3F65BF00091F0D /* ShownViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShownViewController.h; sourceTree = "<group>"; };
-		4EDFE4E51B3F65BF00091F0D /* ShownViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShownViewController.m; sourceTree = "<group>"; };
+		4EDFE4D31B3F65BF00091F0D /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = AppDelegate.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		4EDFE4D41B3F65BF00091F0D /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = AppDelegate.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		4EDFE4D51B3F65BF00091F0D /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = main.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		4EDFE4D71B3F65BF00091F0D /* RSInteractiveAnimatorPresent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = RSInteractiveAnimatorPresent.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		4EDFE4D81B3F65BF00091F0D /* RSInteractiveAnimatorPresent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = RSInteractiveAnimatorPresent.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		4EDFE4D91B3F65BF00091F0D /* RSTransitionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = RSTransitionDelegate.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		4EDFE4DA1B3F65BF00091F0D /* RSTransitionDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = RSTransitionDelegate.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		4EDFE4DB1B3F65BF00091F0D /* RSTransitioningManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = RSTransitioningManager.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		4EDFE4DC1B3F65BF00091F0D /* RSTransitionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = RSTransitionManager.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		4EDFE4DD1B3F65BF00091F0D /* RSTransitionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = RSTransitionManager.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		4EDFE4DE1B3F65BF00091F0D /* RSTransitonAnimatorDismiss.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = RSTransitonAnimatorDismiss.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		4EDFE4DF1B3F65BF00091F0D /* RSTransitonAnimatorDismiss.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = RSTransitonAnimatorDismiss.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		4EDFE4E01B3F65BF00091F0D /* RSTransitonAnimatorPresent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = RSTransitonAnimatorPresent.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		4EDFE4E11B3F65BF00091F0D /* RSTransitonAnimatorPresent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = RSTransitonAnimatorPresent.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		4EDFE4E21B3F65BF00091F0D /* UIViewController+RSTransitioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = "UIViewController+RSTransitioning.h"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		4EDFE4E31B3F65BF00091F0D /* UIViewController+RSTransitioning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = "UIViewController+RSTransitioning.m"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		4EDFE4E41B3F65BF00091F0D /* ShownViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = ShownViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		4EDFE4E51B3F65BF00091F0D /* ShownViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = ShownViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		4EDFE4E61B3F65BF00091F0D /* ShownViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShownViewController.xib; sourceTree = "<group>"; };
-		4EDFE4E71B3F65BF00091F0D /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		4EDFE4E81B3F65BF00091F0D /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4EDFE4E71B3F65BF00091F0D /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = ViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		4EDFE4E81B3F65BF00091F0D /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = ViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		4EDFE4E91B3F65BF00091F0D /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -71,7 +74,7 @@
 		4E5CD5CD1B3EC75500220393 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4E5CD5CC1B3EC75500220393 /* TransitionSample.app */,
+				4E5CD5CC1B3EC75500220393 /* RSTransitionSample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -134,6 +137,8 @@
 				4EDFE4E11B3F65BF00091F0D /* RSTransitonAnimatorPresent.m */,
 				4EDFE4E21B3F65BF00091F0D /* UIViewController+RSTransitioning.h */,
 				4EDFE4E31B3F65BF00091F0D /* UIViewController+RSTransitioning.m */,
+				4E1C91621B3FEA1E00DDB36A /* RSAnimationGroupUtil.h */,
+				4E1C91631B3FEA1E00DDB36A /* RSAnimationGroupUtil.m */,
 			);
 			path = RSTransition;
 			sourceTree = "<group>";
@@ -155,7 +160,7 @@
 			);
 			name = RSTransitionSample;
 			productName = TransitionSample;
-			productReference = 4E5CD5CC1B3EC75500220393 /* TransitionSample.app */;
+			productReference = 4E5CD5CC1B3EC75500220393 /* RSTransitionSample.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -208,6 +213,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E1C91641B3FEA1E00DDB36A /* RSAnimationGroupUtil.m in Sources */,
 				4EDFE4EE1B3F65BF00091F0D /* RSTransitionDelegate.m in Sources */,
 				4EDFE4EC1B3F65BF00091F0D /* main.m in Sources */,
 				4EDFE4F31B3F65BF00091F0D /* ShownViewController.m in Sources */,

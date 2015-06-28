@@ -1,6 +1,6 @@
 //
 //  RSTransitonAnimatorDismiss.h
-//  TransitionSample
+//  RSTransitionSample
 //
 //  Created by Ruslan Samsonov on 6/28/15.
 //  Copyright (c) 2015 Ruslan Samsonov. All rights reserved.

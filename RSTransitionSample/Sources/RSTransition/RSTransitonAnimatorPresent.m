@@ -1,12 +1,15 @@
 //
 //  RSTransitonAnimator.m
-//  TransitionSample
+//  RSTransitionSample
 //
 //  Created by Ruslan Samsonov on 6/27/15.
 //  Copyright (c) 2015 Ruslan Samsonov. All rights reserved.
 //
 
 #import "RSTransitonAnimatorPresent.h"
+#import "RSAnimationGroupUtil.h"
+
+static CGFloat const RSTransitonAnimatorPresentDuration = 0.5f;
 
 @interface RSTransitonAnimatorPresent()
 @property (nonatomic, weak) id <UIViewControllerContextTransitioning> transitionContext;
@@ -16,7 +19,7 @@
 
 - (NSTimeInterval)transitionDuration:(id <UIViewControllerContextTransitioning>)transitionContext
 {
-    return 0.5f;
+    return RSTransitonAnimatorPresentDuration;
 }
 
 - (void)animateTransition:(id <UIViewControllerContextTransitioning>)transitionContext
@@ -28,30 +31,9 @@
     toController.view.center = fromController.view.center;
     [containerView insertSubview:toController.view aboveSubview:fromController.view];
     
-    CABasicAnimation *zoom = [CABasicAnimation animationWithKeyPath:@"transform.scale"];
-    zoom.fromValue = @(0.0f);
-    zoom.toValue = @(1.0f);
-    zoom.removedOnCompletion = NO;
-    zoom.duration = [self transitionDuration:transitionContext];
-    
-    CABasicAnimation *rotation = [CABasicAnimation animationWithKeyPath:@"transform.rotation.z"];
-    rotation.toValue = @(M_PI * 2);
-    rotation.removedOnCompletion = NO;
-    rotation.duration = [self transitionDuration:transitionContext];
-    
-    CAAnimationGroup *group = [CAAnimationGroup animation];
-    group.animations = @[rotation, zoom];
-    group.duration = [self transitionDuration:transitionContext];
-    group.delegate = self;
-    [toController.view.layer addAnimation:group forKey:@"zoom&rotate"];
-   
-    CABasicAnimation *color = [CABasicAnimation animationWithKeyPath:@"backgroundColor"];
-    color.fromValue = (__bridge id)([[UIColor redColor] CGColor]);
-    color.toValue = (__bridge id)([[UIColor grayColor] CGColor]);
-    color.duration = [self transitionDuration:transitionContext];
-    color.fillMode = kCAFillModeForwards;
-    color.removedOnCompletion = NO;
-    [toController.view.layer addAnimation:color forKey:@"color"];
+    CAAnimationGroup *animationGroup = [RSAnimationGroupUtil createRotateAndScaleAnimationWithDuration:[self transitionDuration:transitionContext]];
+    animationGroup.delegate = self;
+    [toController.view.layer addAnimation:animationGroup forKey:@"zoom&rotate"];
 }
 
 - (void)animationDidStop:(CAAnimation*)theAnimation finished:(BOOL)flag
