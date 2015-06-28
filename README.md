@@ -1,3 +1,3 @@
 # RSTransitionSample
 Sample about using custom iOS transitions. 
-Implementing protocols UIViewControllerTransitioningDelegate, UIViewControllerInteractiveTransitioning.
+Implementing protocols UIViewControllerTransitioningDelegate, UIViewControllerInteractiveTransitioning and UIViewControllerInteractiveTransitioning.
