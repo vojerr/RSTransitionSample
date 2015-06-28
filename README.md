@@ -1,0 +1,3 @@
+# RSTransitionSample
+Sample about using custom iOS transitions. 
+Implementing protocols UIViewControllerTransitioningDelegate, UIViewControllerInteractiveTransitioning.
